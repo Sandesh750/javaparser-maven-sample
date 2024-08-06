@@ -19,4 +19,13 @@ pipeline {
         }
       
     }
+
+    post
+    {
+        always
+        {
+            emailext body: 'Pipeline passed', subject: 'Pipeline Status', to: 'timepass8035@gmail.com'
+                
+        }
+    }
 }
