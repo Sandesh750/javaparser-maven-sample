@@ -5,7 +5,6 @@ This fully working sample Maven project parses and generates code with [JavaPars
 
 This sample is targeted at people without [Maven](https://maven.apache.org/) experience.
 
-
 To build it, you will need to download and unpack the latest (or recent) version of Maven (https://maven.apache.org/download.cgi)
 and put the `mvn` command on your path.
 
